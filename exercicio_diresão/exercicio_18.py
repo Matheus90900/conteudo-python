@@ -4,6 +4,9 @@ tipo = input("Digite o tipo de combustível (A - Álcool, G - Gasolina): ")
 preco_alcool = 4.17
 preco_gasolina = 6.29
 
+desconto = 0
+preco_litro = 0
+
 if tipo == 'A':
     preco_litro = preco_alcool
     if litros <= 20:
